@@ -1,0 +1,43 @@
+body {
+  background-color: #ffffff;
+  margin: 10px;
+  padding: 20px;
+  border: 20px;
+  border-color: #efefef;
+  border-style: solid;
+}
+
+/* Styles ALL h1s on your webpage*/
+
+h1 {
+  color: #000000;
+  font-family: Arial;
+  font-size: 50px;
+}
+
+h2 {
+  color: #000000;
+  font-family: Arial;
+}
+a {
+  text-decoration: none;
+  color: red;
+  font-family: Verdana;
+  font-size: 14px;
+}
+/* Styles ONLY the about-me section on the page */
+.source p {
+  font-size: 10px;
+  color: #666666;
+}
+
+.intro {
+  background-color: #CC0000;
+  padding: 20px;
+}
+.boxar {
+  list-style-type: circle;
+}
+.boxar h2 {
+  font-family: Arial;
+}
