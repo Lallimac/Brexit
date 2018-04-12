@@ -9,12 +9,6 @@ body {
 
 /* Styles ALL h1s on your webpage*/
 
-h1 {
-  color: #000000;
-  font-family: Arial;
-  font-size: 50px;
-}
-
 h2 {
   color: #000000;
   font-family: Arial;
@@ -23,7 +17,7 @@ a {
   text-decoration: none;
   color: red;
   font-family: Verdana;
-  font-size: 14px;
+  font-size: 13px;
 }
 
 .source p {
@@ -32,11 +26,12 @@ a {
 }
 
 .intro {
-  height: 500px;
+  height: 100%;
   background-image: url("https://i0.wp.com/www.director.co.uk/wp-content/uploads/2016/05/EU-flag-union-jack-EU-referendum.jpg?w=1000&ssl=1");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  padding: 8px;
 }
 
 .intro h1{
@@ -46,11 +41,14 @@ a {
     left: 16px;
     font-size: 200px;
     color: white;
+    margin: 0;
+
 }
 .container {
   /*flexbox*/
    display: flex;
    justify-content: center;
+
 
   /*styling*/
    background: #ffffff;
@@ -66,6 +64,14 @@ a {
    height: 100%;
    margin: 10px;
    background: #ffffff;
+ }
+
+ .teaser img {
+   width: 100%;
+ }
+
+ .teaser a {
+     font-size: 14px;
  }
 
 .boxar {
