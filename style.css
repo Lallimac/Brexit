@@ -1,7 +1,7 @@
 body {
   background-color: #ffffff;
   margin: 10px;
-  padding: 20px;
+  padding: 8px;
   border: 20px;
   border-color: #efefef;
   border-style: solid;
@@ -25,19 +25,66 @@ a {
   font-family: Verdana;
   font-size: 14px;
 }
-/* Styles ONLY the about-me section on the page */
+
 .source p {
   font-size: 10px;
   color: #666666;
 }
 
 .intro {
-  background-color: #CC0000;
-  padding: 20px;
+  height: 500px;
+  background-image: url("https://i0.wp.com/www.director.co.uk/wp-content/uploads/2016/05/EU-flag-union-jack-EU-referendum.jpg?w=1000&ssl=1");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+.intro h1{
+
+    position: inherit;
+    bottom: 8px;
+    left: 16px;
+    font-size: 200px;
+    color: white;
+}
+.container {
+  /*flexbox*/
+   display: flex;
+   justify-content: center;
+
+  /*styling*/
+   background: #ffffff;
+
+ }
+
+ .teaser {
+   /*flexbox to center content in boxes*/
+
+
+   /*styling*/
+   width: 100%;
+   height: 100%;
+   margin: 10px;
+   background: #ffffff;
+ }
+
 .boxar {
-  list-style-type: circle;
+  /*flexbox*/
+   justify-content: center;
+
 }
 .boxar h2 {
   font-family: Arial;
+  font-size: 24px;
+}
+
+.row {
+    display: flex;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    flex: 50%;
+    padding: 10px;
+    height: auto;
 }
