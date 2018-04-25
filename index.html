@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width">
     <title>Brexit</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <style>
+    <script>
+    const showMoreWhatIs = () => {
+    document.querySelector(".showmore1").classList.toggle("hideDIV");
+    }
+    const showMoreUk = () => {
+    document.querySelector(".showmore2").classList.toggle("hideDIV");
+    }
+    const showMoreWorld = () => {
+    document.querySelector(".showmore3").classList.toggle("hideDIV");
+    }
+    const showMoreVideo= () => {
+    document.querySelector(".showmore4").classList.toggle("hideDIV");
+    }
+    </script>
 
-    </style>
   </head>
   <body>
 
@@ -59,6 +71,13 @@
     </p>
         <p><a href="http://www.bbc.com/news/uk-politics-32810887">Brexit: All you need to know about the UK leaving the EU</a>
     </p>
+    <button onclick="showMoreWhatIs()">Show more</button>
+      <div class="showmore1 hideDIV">
+    <p><a href="https://www.express.co.uk/news/politics/645667/Brexit-EU-European-Union-Referendum-David-Cameron-Economic-Impact-UK-EU-exit-leave">What is going to happen now that Britain has voted to LEAVE the EU?</a>
+    </p>
+        <p><a href="http://www.bbc.com/news/uk-politics-32810887">Brexit: All you need to know about the UK leaving the EU</a>
+    </p>
+  </div>
   </div>
   <div class="column">
     <h2>UK news</h2>
@@ -66,6 +85,12 @@
     </p>
     <p><a href="https://www.theguardian.com/business/2018/apr/10/government-must-maintain-close-trade-ties-with-eu-post-brexit">Keep close trade ties with EU post-Brexit, UK government warned</a>
     </p>
+    <button onclick="showMoreUk()">Show more</button>
+      <div class="showmore2 hideDIV">
+        <p><a href="https://www.theguardian.com/environment/2018/apr/11/uk-could-create-5000-jobs-by-moving-to-sustainable-fishing-says-report">UK could create 5,000 jobs by moving to sustainable fishing, says report</a>
+        </p>
+        <p><a href="https://www.theguardian.com/business/2018/apr/10/government-must-maintain-close-trade-ties-with-eu-post-brexit">Keep close trade ties with EU post-Brexit, UK government warned</a>
+        </p>
   </div>
 </div>
 </div>
@@ -77,11 +102,23 @@
       </p>
       <p><a href="http://money.cnn.com/2018/01/30/news/economy/brexit-britain-worse-off/index.html">Britain is already worse off because of Brexit</a>
       </p>
+      <button onclick="showMoreWorld()">Show more</button>
+        <div class="showmore3 hideDIV">
+          <p><a href="http://money.cnn.com/2018/02/09/news/brexit-barnier-eu-pound/index.html">Brexit could still be a train wreck</a>
+          </p>
+          <p><a href="http://money.cnn.com/2018/01/30/news/economy/brexit-britain-worse-off/index.html">Britain is already worse off because of Brexit</a>
+          </p>
+        </div>
     </div>
     <div class="column">
       <h2>Video</h2>
       <p><a href="https://www.youtube.com/watch?v=m3_I2rfApYk">Brexit briefly</a></p>
       <p><a href="https://www.youtube.com/watch?v=GLp7LtXmy68">Why Britain left the European union</a></p>
+      <button onclick="showMoreVideo()">Show more</button>
+        <div class="showmore4 hideDIV">
+          <p><a href="https://www.youtube.com/watch?v=m3_I2rfApYk">Brexit briefly</a></p>
+          <p><a href="https://www.youtube.com/watch?v=GLp7LtXmy68">Why Britain left the European union</a></p>
+        </div>
     </div>
   </div>
   </div>
