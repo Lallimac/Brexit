@@ -65,6 +65,8 @@ a {
 
  .teaser img {
    width: 100%;
+   height: auto;
+
  }
 
  .teaser img:hover {
@@ -94,12 +96,20 @@ a {
 }
 
 /* Create two equal columns that sits next to each other */
-.column {
+.column1 {
+    flex: 50%;
+    padding: 8px;
+    height: auto;
+}
+.column2 {
     flex: 50%;
     padding: 8px;
     height: auto;
 }
 .hideDIV {
+  display: none;
+}
+.hidden{
   display: none;
 }
 
